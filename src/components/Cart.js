@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import GoogleMapPicker from "./GoogleMapPicker";
 import { Link } from "react-router-dom";
+const images = require.context('../../public/food_imgs', true);
 
 function Cart() {
   const [cart, setCart] = useState([]);
@@ -197,7 +198,7 @@ function Cart() {
               >
                 <div className="flex items-start space-x-4">
                   <img
-                    src={require('./../food_imgs/chilli_paneer.jpeg')}
+                    src={images(order.items[0].img)}
                     alt={order.items[0].name}
                     className="h-28 w-36  object-cover"
                   />

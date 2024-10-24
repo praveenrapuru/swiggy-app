@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import swiggyData from "./swiggy-data.json";
+const images = require.context('../../public/food_imgs', true);
+
 
 function Restaurants() {
   const [displayRestaurant, setDisplayRestaurant] = useState([]);
@@ -9,6 +11,8 @@ function Restaurants() {
     setDisplayRestaurant(swiggyData);
     console.log(swiggyData)
   }, []);
+
+
 
   return (
     <div className="px-10">
@@ -22,7 +26,7 @@ function Restaurants() {
                 <div className="inline-block">
                   <div className="w-60 bg-white rounded-lg shadow-md p-4 cursor-pointer">
                     <img
-                      src={require('./../food_imgs/chinese_wok.avif')}
+                      src={images(restaurant.img)}
                       alt={restaurant.name}
                       className="w-full h-40 object-cover rounded-lg shadow-lg"
                     />
@@ -47,7 +51,7 @@ function Restaurants() {
            
               <Link to={`/restaurant/${restaurant.id}`} key={restaurant.id} className="w-60 bg-white rounded-lg shadow-sm p-4">
               <img
-                src={require('./../food_imgs/bakery_world.avif')}
+                src={images(restaurant.img)}
                 alt={restaurant.name}
                 className="w-full h-40 object-cover rounded-lg shadow-lg"
               />

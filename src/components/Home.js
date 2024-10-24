@@ -7,10 +7,10 @@ function Home (){
   return(
     <Router>
     <div >
-      <div className=" bg-white  fixed w-full z-20 top-0 start-0 border-b border-gray-300 h-20 ">
+      <div className=" bg-white fixed w-full z-20 top-0 start-0 border-b border-gray-300 h-20 ">
         <div className=" grid grid-cols-8 p-7">
-          <Link className="col-span-2" to='/'>
-            <img className="col-span-2 w-10 rounded-lg shadow-md" src={require('./../food_imgs/swiggy.png')} alt="Swiggy"/>
+          <Link className="col-span-2 mr-10" to='/'>
+            <img className="col-span-2 w-12 h-12 rounded-lg shadow-md" src={require('./../food_imgs/swiggy.png')} alt="Swiggy"/>
           </Link>
           <p>Swiggy Corporate</p>
           <p>Search</p>

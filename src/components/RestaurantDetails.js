@@ -1,7 +1,8 @@
 import { useParams,useNavigate, Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import swiggyData from "./swiggy-data.json";
-import Cart from "./Cart";
+const images = require.context('../../public/food_imgs', true);
+
 function RestaurantDetails() {
   const { id } = useParams();
   const navigate = useNavigate();
@@ -95,7 +96,7 @@ function RestaurantDetails() {
                 </div>
                 <div className="ml-4 relative">
                   <img
-                    src={require('./../food_imgs/chilli_paneer.jpeg')}
+                    src={images(item.img)}
                     alt={item.name}
                     className="h-40 w-40 object-cover rounded-lg shadow-lg"
                   />

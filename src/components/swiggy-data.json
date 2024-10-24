@@ -3,7 +3,7 @@
      {
         "id":1,
         "name":"Chinese Wok",
-        "img": "./../food_imgs/chinese_wok.avif",
+        "img": "./chinese_wok.avif",
         "rating":4.1,
         "time":"24-30",
         "location":"Bangalore"
@@ -12,7 +12,7 @@
       { 
         "id":2,
         "name":"Subway",
-        "img":"./../food_imgs/subway.avif",
+        "img":"./subway.avif",
         "rating":4.5,
         "time":"24-30",
         "location":"Bangalore"
@@ -20,7 +20,7 @@
       {
         "id":3,
         "name":"KFC",
-        "img":"./../food_imgs/kfc.avif",
+        "img":"./kfc.avif",
         "rating":4.3,
         "time":"24-30",
         "location":"Bangalore"
@@ -28,7 +28,7 @@
       {
         "id":4,
         "name":"The Belgian Waffle Co",
-        "img":"./../food_imgs/the_belgian.avif",
+        "img":"./the_belgian.avif",
         "rating":4.2,
         "time":"24-30",
         "location":"Bangalore"
@@ -36,7 +36,7 @@
       {
         "id":5,
         "name":"Kwality Walls Icc Cream",
-        "img":"./../food_imgs/ice_cream.avif",
+        "img":"./ice_cream.avif",
         "rating":4.1,
         "time":"24-30",
         "location":"Bangalore"
@@ -44,7 +44,7 @@
       {
         "id":6,
         "name":"Burger King",
-        "img":"./../food_imgs/burger_king.avif",
+        "img":"./burger_king.avif",
         "rating":4.9,
         "time":"24-30",
         "location":"Bangalore"
@@ -52,7 +52,7 @@
       {
         "id":7,
         "name":"Andhra Gunpowder",
-        "img":"./../food_imgs/andhra_gunpowder.avif",
+        "img":"./andhra_gunpowder.avif",
         "rating":4.5,
         "time":"24-30",
         "location":"Bangalore"
@@ -60,7 +60,7 @@
       {
         "id":8,
         "name":"McDonald's",
-        "img":"./../food_imgs/mcdoald's.avif",
+        "img":"./mcdoald's.avif",
         "rating":4.8,
         "time":"24-30",
         "location":"Bangalore"
@@ -68,7 +68,7 @@
       {
         "id":9,
         "name":"Big Bowl",
-        "img":"./../food_imgs/big_bowl.avif",
+        "img":"./big_bowl.avif",
         "rating":4.7,
         "time":"24-30",
         "location":"Bangalore"
@@ -79,77 +79,77 @@
     {
       "id":10,
       "name":"Asha Tiffins",
-      "img":"./../food_imgs/asha_tiffins.avif",
+      "img":"./asha_tiffins.avif",
       "time":"24-30",
       "location":"Bangalore"
     },
     {
       "id":11,
       "name":"The Rameshwaram Cafe",
-      "img":"./../food_imgs/the_rameshwaram.avif",
+      "img":"./the_rameshwaram.avif",
       "time":"24-30",
       "location":"Bangalore"
     },
     {
       "id":12,
       "name":"TMC - The Mysore cafe",
-      "img" : "./../food_imgs/TMC.avif",
+      "img" : "./TMC.avif",
       "time":"24-30",
       "location":"Bangalore"
     },
     {
       "id":13,
       "name":"Ledikeni Sweets",
-      "img":"./../food_imgs/ledikeni_sweets.avif",
+      "img":"./ledikeni_sweets.avif",
       "time":"24-30",
       "location":"Bangalore"
     },
     {
       "id":14,
       "name":"Sri Udupi Sannidhi",
-      "img" :"./../food_imgs/sri_udupi_sannidhi.avif",
+      "img" :"./sri_udupi_sannidhi.avif",
       "time":"24-30",
       "location":"Bangalore"
     },
     {
       "id":15,
       "name":"Sri Vishnu Palace",
-      "img":"./../food_imgs/sri_vishnu.avif",
+      "img":"./sri_vishnu.avif",
       "time":"24-30",
       "location":"Bangalore"
     },
     {
       "id":16,
       "name":"The Filter Coffee",
-      "img":"./../food_imgs/the_filter.avif",
+      "img":"./the_filter.avif",
       "time":"24-30",
       "location":"Bangalore"
     },
     {
       "id":17,
       "name":"Mom's Dabba",
-      "img" : "./../food_imgs/mom's dabba.avif",
+      "img" : "./mom's dabba.avif",
       "time":"24-30",
       "location":"Bangalore"
     },
     {
       "id":18,
       "name":"Iyer Idly",
-      "img":"./../food_imgs/iyer_idly.avif",
+      "img":"./iyer_idly.avif",
       "time":"24-30",
       "location":"Bangalore"
     },
     {
       "id":19,
       "name":"Nalapaka Express",
-      "img":"./../food_imgs/nalapaka_express.avif",
+      "img":"./nalapaka_express.avif",
       "time":"24-30",
       "location":"Bangalore"
     },
     {
       "id":20,
       "name":"Cafe Siri",
-      "img" :"./../food_imgs/cafe_siri.avif",
+      "img" :"./cafe_siri.avif",
       "time":"24-30",
       "location":"Bangalore"
     }
@@ -158,7 +158,7 @@
   "items":[
     {
       "name":"Chilli Paneer Gravy - Half",
-      "img":"./../food_imgs/chilli_paneer.jpeg",
+      "img":"./chilli_paneer.jpeg",
       "cost": 160,
       "rating":3.0,
       "description":"Serves 1 | (Spicy) Paneer, onion & capsicum tossed in our signature desi chilli sauce.",
@@ -166,21 +166,21 @@
     },
     {
       "name":"Veg Manchurian Gravy - Half",
-      "img":"./../food_imgs/veg_manchurian.jpeg",
+      "img":"./veg_manchurian.jpeg",
       "cost":169,
       "rating":4.1,
       "description":"Serves 1 | (Peppery & Non Spicy) Mix veg fried fritters, onion and capsicum tossed in classic Manchurian sauce."
     },
     {
       "name":"Chilli Chicken Gravy - Half",
-      "img":"./../food_imgs/chilli_chicken.jpeg",
+      "img":"./chilli_chicken.jpeg",
       "cost":169,
       "rating":4.3,
       "description":"Serves 1 | (Spicy) Diced chicken, onion & capsicum tossed in our signature desi chilli sauce."
     },
     {
       "name":"Chicken Manchurian Gravy - Half",
-      "img" :"./../food_imgs/chicken_manchurian.jpeg",
+      "img" :"./chicken_manchurian.jpeg",
       "cost":169,
       "rating":4.8,
       "location":"Bangalore",
@@ -188,7 +188,7 @@
     },
     {
       "name":"Veg Manchurian Dry",
-      "img":"./../src/food_imgs/Veg Manchurian Dry.jpeg",
+      "img":"./Veg Manchurian Dry.jpeg",
       "cost":169,
       "rating":4.3,
       "location":"Bangalore",
@@ -196,7 +196,7 @@
     },
     {
       "name":"Veg Burnt Garlic Noodles - Half (500 ml)",
-      "img":"./../src/food_imgs/veg_burnt_noodels.jpeg",
+      "img":"./veg_burnt_noodels.jpeg",
       "cost":169,
       "rating":3.0,
       "location":"Bangalore",
@@ -204,7 +204,7 @@
     },
     {
       "name":"Manchurian Chicken Dry",
-      "img":"./../food_imgs/chicken_manchurian_dry.jpeg",
+      "img":"./chicken_manchurian_dry.jpeg",
       "cost":169,
       "rating":4.7,
       "location":"Bangalore",
@@ -212,7 +212,7 @@
     },
     {
       "name":"Chicken Personal Wok Bowl",
-      "img":"./../food_imgs/chicken_wok_bowl.jpeg",
+      "img":"./chicken_wok_bowl.jpeg",
       "cost":179,
       "rating":3.0,
       "location":"Bangalore",
