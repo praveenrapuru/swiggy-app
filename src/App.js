@@ -1,14 +1,23 @@
-import './App.css'; 
-import Home from './components/Home'; 
-import TopRestaurants from './components/Restaurants'; 
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./components/Home";
+import Restaurants from "./components/Restaurants";
+import Cart from "./components/Cart";
 import RestaurantDetails from "./components/RestaurantDetails";
-import { BrowserRouter, Routes, Route } from "react-router-dom"; 
-import Cart from './components/Cart';
+import Search from "./components/Search";
+
 function App() {
   return (
-    <div className='container mx-auto'>
-      <Home/>   
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />}>
+          <Route path="search" element={<Search />} />
+          <Route index element={<Restaurants />} />
+          <Route path="cart" element={<Cart />} />
+          <Route path="restaurant/:id" element={<RestaurantDetails />} />
+        </Route>
+      </Routes>
+    </Router>
   );
 }
+
 export default App;

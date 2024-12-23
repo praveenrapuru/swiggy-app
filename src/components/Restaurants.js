@@ -16,7 +16,7 @@ function Restaurants() {
 
   return (
     <div className="px-10">
-      <h1 className="text-xl font-bold mt-24">Top Restaurants</h1>
+      <h1 className="text-xl font-bold mt-2">Top Restaurants</h1>
 
       <div className="overflow-x-scroll whitespace-nowrap">
         <div className="flex space-x-3">

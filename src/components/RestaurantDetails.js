@@ -70,7 +70,7 @@ function RestaurantDetails() {
 
   return (
     <div className="px-64">
-      <div className="mt-28">
+      <div className="mt-4">
         <h2 className="text-2xl font-bold">{restaurant.name}</h2>
         <div className="mt-3 p-4 bg-gray-100 rounded-lg shadow-md">
           <p>

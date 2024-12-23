@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import GoogleMapPicker from "./GoogleMapPicker";
 import { Link } from "react-router-dom";
 const images = require.context('../../public/food_imgs', true);
-
 function Cart() {
   const [cart, setCart] = useState([]);
   const [location, setLocation] = useState(null);
