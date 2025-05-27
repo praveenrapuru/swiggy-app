@@ -1,0 +1,8 @@
+.alternating {
+  transition: transform 0.1s ease-in;
+}
+
+.alternating:hover {
+  transform: scale(0.9); 
+
+}

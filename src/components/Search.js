@@ -12,13 +12,21 @@ function Search() {
     setQuery(searchTerm);
 
     if (searchTerm.length >= 2) {
-      const results = swiggyData.toprastaurants.filter((restaurant) =>
+      const topRestaurants = swiggyData.toprastaurants ;
+      const onlinefoodDelivery = swiggyData.online_food_delivery;
+
+      const combinedRestaurants = [...topRestaurants, ...onlinefoodDelivery];
+
+      const results = combinedRestaurants.filter((restaurant) =>
         restaurant.name.toLowerCase().includes(searchTerm)
       );
       setFilteredRestaurants(results);
     } else {
       setFilteredRestaurants([]);
     }
+  };
+  const handleFocus = () => {
+    setFilteredRestaurants(swiggyData.toprastaurants || []);
   };
 
   return (
@@ -27,6 +35,7 @@ function Search() {
         type="text"
         value={query}
         onChange={handleSearch}
+        onFocus={handleFocus}
         placeholder="Search for restaurants..."
         className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
       />
@@ -41,9 +50,9 @@ function Search() {
               <img
                 src={images(restaurant.img)}
                 alt={restaurant.name}
-                className="h-28 w-36 object-cover"
+                className="h-20 w-26 object-cover rounded-md shadow-lg alternating"
               />
-              <h2 className="text-lg">{restaurant.name}</h2>
+              <h2 className="text-base text-slate-600 mt-7 ">{restaurant.name}</h2>
             </div>
             </Link>
           </div>
