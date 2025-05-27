@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/swiggy-app/static/css/main.dde73705.css",
-    "main.js": "/swiggy-app/static/js/main.3650094e.js",
+    "main.js": "/swiggy-app/static/js/main.fef18649.js",
     "static/js/453.07ce365b.chunk.js": "/swiggy-app/static/js/453.07ce365b.chunk.js",
     "static/media/andhra_gunpowder.avif": "/swiggy-app/static/media/andhra_gunpowder.109cde7a255d317651d1.avif",
     "static/media/the_filter.avif": "/swiggy-app/static/media/the_filter.06e8e1003c39b5f9016c.avif",
@@ -46,11 +46,11 @@
     "static/media/shopping-bag-svgrepo-com.svg": "/swiggy-app/static/media/shopping-bag-svgrepo-com.7d3b018c2275f55a4600.svg",
     "index.html": "/swiggy-app/index.html",
     "main.dde73705.css.map": "/swiggy-app/static/css/main.dde73705.css.map",
-    "main.3650094e.js.map": "/swiggy-app/static/js/main.3650094e.js.map",
+    "main.fef18649.js.map": "/swiggy-app/static/js/main.fef18649.js.map",
     "453.07ce365b.chunk.js.map": "/swiggy-app/static/js/453.07ce365b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dde73705.css",
-    "static/js/main.3650094e.js"
+    "static/js/main.fef18649.js"
   ]
 }
