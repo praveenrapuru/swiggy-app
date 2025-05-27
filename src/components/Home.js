@@ -15,7 +15,7 @@ function Home() {
     <div>
       <div className="bg-white px-14 fixed w-full z-20 top-0 start-0 border-b border-gray-300 h-20">
         <div className="grid grid-cols-8 items-center p-7">
-          <Link className="col-span-2" to="/">
+          <Link className="col-span-2" to="/swiggy-app">
             <img
               className="col-span-2 w-12 h-12 rounded-lg shadow-md"
               src={swiggyLogo}
@@ -28,7 +28,7 @@ function Home() {
           </div>
           <div className="flex items-start space-x-2 ml-9 text-black hover:text-orange-600">
             <Search width={20} />
-            <Link to="/search">Search</Link>
+            <Link to="/swiggy-app/search">Search</Link>
           </div>
           <div className="flex items-start space-x-2 text-black hover:text-orange-600">
             <BadgePercent width={20} />
@@ -57,7 +57,7 @@ function Home() {
               </div>
             )}
           </div>
-          <Link className="flex items-start space-x-2 text-black hover:text-orange-600" to="/cart">
+          <Link className="flex items-start space-x-2 text-black hover:text-orange-600" to="/swiggy-app/cart">
             <ShoppingBag width={20} />
             <p>Cart</p>
           </Link>

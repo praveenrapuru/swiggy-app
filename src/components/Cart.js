@@ -81,7 +81,7 @@ function Cart() {
             className="w-72 object-cover rounded-lg"
           />
           <p className="font-semibold mt-4">Your cart is empty.</p>
-          <Link to="/">
+          <Link to="/swiggy-app">
             <button className="mt-4 py-2 px-6 text-white bg-orange-600 rounded-lg shadow-md">
               SEE RESTAURANTS NEAR YOU
             </button>
@@ -172,7 +172,7 @@ function Cart() {
               PLACE ORDER
             </button>
           </div>
-          <Link to="/orders">
+          <Link to="/swiggy-app/orders">
             <button className="mt-6 py-2 px-6 text-white bg-green-600 rounded-lg shadow-md w-full">
               PAST ORDER
             </button>

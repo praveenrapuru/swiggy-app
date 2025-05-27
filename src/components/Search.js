@@ -45,7 +45,7 @@ function Search() {
             key={restaurant.id}
             className="flex items-center justify-between p-2 m-2"
           >
-            <Link to={`/restaurant/${restaurant.id}`}>
+            <Link to={`/swiggy-app/restaurant/${restaurant.id}`}>
             <div className="flex items-start space-x-4">
               <img
                 src={images(restaurant.img)}

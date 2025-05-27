@@ -23,7 +23,7 @@ function Restaurants() {
         <div className="flex space-x-3">
           {displayRestaurant.toprastaurants && displayRestaurant.toprastaurants.map((restaurant) => (
             <div key={restaurant.id} className="inline-block"> 
-              <Link to={`/restaurant/${restaurant.id}`}>
+              <Link to={`/swiggy-app/restaurant/${restaurant.id}`}>
                 <div className="inline-block">
                   <div className="w-60 bg-white rounded-lg shadow-md p-4 cursor-pointer alternating">
                     <img

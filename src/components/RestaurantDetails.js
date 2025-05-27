@@ -175,7 +175,7 @@ function RestaurantDetails() {
        {toastVisible && (
           <div className="fixed bottom-0 px-72 bg-green-500 text-white p-3 flex justify-between items-center">
             <p>{toastMessage}</p>
-            <Link to={'/cart'} className=" text-white font-semibold">
+            <Link to={'/swiggy-app/cart'} className=" text-white font-semibold">
               VIEW CART
             </Link>
           </div>
